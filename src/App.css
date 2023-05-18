@@ -1,0 +1,232 @@
+.centerxx {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  overflow: visible;
+  width: 700px;
+}
+
+body {
+  background: linear-gradient(to right, #6eda78, #ffa200) !important;
+  height: 1vh;
+}
+
+.visible-false {
+  display: none !important;
+}
+
+.one {
+  background-color: white;
+  height: 120px;
+}
+
+.x1 {
+  margin: 5px;
+  border-radius: 10px;
+}
+
+
+.conx1 {
+  background-color: white;
+  height: 120px;
+  margin: 5px;
+  border-radius: 10px;
+}
+.conx2 {
+  background-color: white;
+  height: 120px;
+  margin: 5px;
+  border-radius: 10px;
+
+  padding : 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x2 {
+  margin: 5px 0 5px 5px;
+  border-radius: 10px 0 0 10px;
+}
+
+.x3 {
+  margin: 5px 5px 5px 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+
+
+.tri-left {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent gray transparent transparent;
+  border-width: 40px 90px 40px 0;
+}
+
+.tri-right {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 40px 90px;
+  border-color: transparent transparent transparent gray;
+}
+
+.tri-up {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 40px 70px 40px;
+  border-color: transparent transparent gray transparent;
+}
+
+.tri-down {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 70px 40px 0 40px;
+  border-color: gray transparent transparent transparent;
+}
+
+.tri-center {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+.badge-center {
+  text-align: center;
+  margin-top: -10px;
+
+}
+
+.badge-me {
+  background-color: #6eda78;
+  border-radius: 20px;
+  padding: 2px 10px;
+  color: white;
+}
+
+.hr {
+  width: 845px;
+  margin: 0 0 0 225px;
+  border: 1px solid   #aaa;
+}
+
+.conx1:hover,.conx2:hover {
+  background-color: #ffa200;
+}
+
+.conx1:active:hover ,.conx2:active:hover {
+  background-color: #6eda78;
+}
+
+.conx2 {
+  background-color: white;
+  height: 120px;
+  margin: 5px;
+  border-radius: 10px;
+  padding : 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shape0{
+  height: 70px;
+  width: 70px;
+  background-color: gray;
+}
+
+
+.shape1{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.shape2{
+  height: 90px;
+  width: 220px;
+  border-radius: 50%;  
+  background-color: gray;
+}
+
+.shape3{
+  border-bottom: 90px solid gray;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 150px;
+}
+
+.shape4{
+  width:150px;
+  height: 90px;
+  background-color: gray;
+}
+
+.shape5{
+  width: 150px;
+	height: 80px;
+	transform: skew(20deg);
+	background: gray;
+}
+
+.row1{
+margin:10px;
+
+}
+.row2{
+margin: -120px 10px 10px 10px;
+}
+
+.show-border{
+  border: 1px solid red;
+}
+.ppp{
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin:10px;
+
+}
+.pointer {cursor: pointer;}
+.width-but1{
+  width:80px;
+}
+.width-but2{
+  width:300px;
+}
+body{
+
+  overflow: hidden;
+}
+.red{
+  color:#b72025
+}
+.textData{
+  display: flex
+ 
+}
+
+.ttt{
+  margin:0px 5px;
+  
+}
+
+.my-center{
+  margin:100px;
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
